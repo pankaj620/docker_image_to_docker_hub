@@ -1,3 +1,3 @@
 FROM python:3-onbuild
-COPY . /app
+COPY ./hello.py /app
 CMD ["python", "hello.py"]
